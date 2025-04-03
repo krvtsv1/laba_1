@@ -2,15 +2,14 @@
 #include <cmath>
 using namespace std;
 
-// Функция вычисления периметра
 double Perimeter(double a, double b) {
     return 2 * (a + b);
 }
-// Функция вычисления площади
+
 double Area(double a, double b) {
     return a * b;
 }
-// Функция вычисления диагонали
+
 double Diagonal(double a, double b) {
     return sqrt(a * a + b * b);
 }
@@ -26,7 +25,7 @@ int main() {
         cout << "Ошибка: значения должны быть положительными!\n";
         return 1;
     }
-    // Вызов функций для вычисления параметров
+
     double perimeter = Perimeter(a, b);
     double area = Area(a, b);
     double diagonal = Diagonal(a, b);
