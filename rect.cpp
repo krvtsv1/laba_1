@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
+//werrty
 double Perimeter(double a, double b) {
     return 2 * (a + b);
 }
