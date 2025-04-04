@@ -3,13 +3,13 @@
 using namespace std;
 double calculatePerimeter(double a, double b, double c, double d) {
  return a + b + c + d;
-}
+}//сумма периметр 
 double calculateArea(double a, double b, double h) {
  return (a + b) * h / 2;
-}
+}//плошядь
 double calculateMidline(double a, double b) {
  return (a + b) / 2;
-}
+}//средняя линия
 bool proverka(double a, double b, double c, double d, double h) {
   if (a <= 0 || b <= 0 || c <= 0 || d <= 0 || h <= 0) {
       cout << "Ошибка: Все длины сторон и высота должны быть положительными числами." << endl;
